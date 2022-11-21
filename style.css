@@ -10,7 +10,7 @@
 body{
     background-color: rgb(0, 0, 0);
     font-family:'Caveat', cursive; ;
-    margin-bottom: 1em;
+    margin-bottom: 3em;
 }
 
 /* adjustments when on smaller screen */
@@ -22,12 +22,10 @@ body{
   align-items: center;
   padding: 0 20px;
   position: relative;
-
 }
 
 
-/* background  */
-
+/* background */
  #starbackground{
   position:absolute;
   top: 0;
@@ -38,12 +36,11 @@ body{
   padding-top:10px; 
 } 
 
-
+/* jar image */
 #starjar{
   position:absolute;
   top: 15em;
   left: 51.5em;
-
 
 }
 /* right stars */
@@ -51,16 +48,11 @@ body{
   position:absolute;
   top: 50em;
   left: 5em;
-
-
 }
 #starr{
   position:absolute;
   top: 60em;
   left: 18em;
-
-
-
 }
 /* left  */
 #starrr{
@@ -75,7 +67,8 @@ body{
   right: 18em;
 
 }
-/* Welcome letters */
+
+/* gloss class, to make welcome letters glow  */
 .glow {
   font-size: 80px;
   color: #fff;
@@ -92,6 +85,8 @@ body{
      0 0 50px #3a2b5c, 0 0 60px #3a2b5c, 0 0 70px #302b5c, 0 0 80px #302b5c;
   }
   }
+
+/* welcome letters */
 h2 {
   text-transform: uppercase;
   background: none;
@@ -175,13 +170,13 @@ h2 {
 }
 
 /* Style  the navigation bar */
-#navbar a {
+#navbarS a {
   color: hsl(0, 0%, 95%);
   padding: 18px 24px;
   text-decoration: none;
 }
 /* nav bar color*/
-#navbar {
+#navbarS {
   background-color: rgb(54, 39, 52);
   overflow: hidden; 
   padding: 14px 10px ;
@@ -189,12 +184,12 @@ h2 {
 }
 /* Change the color of links on hover */
 #navbarS  a:hover {
-  background-color: #ddd;
+  background-color: rgb(132, 103, 128);
   color: black;
-
+  
 }
 /* Add a color to the active/current link */
-#navbar .active {
+#navbarS .active {
   background-color: #fbe98e;
   color: rgb(255, 255, 255)
 }
