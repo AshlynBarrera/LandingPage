@@ -69,11 +69,30 @@ h2 {
 /* About  */
 
 #abone{
-  font-size: 120px;
+  font-size: 25px;
   color: rgb(250, 245, 183);
   position: absolute;
-  top: 6em;
-  right: 3.5em;
+  bottom: 19em;
+  right: 11em;
+  z-index: 1;
+
+}
+
+#abtwo{
+  font-size: 25px;
+  color: rgb(250, 245, 183);
+  position: absolute;
+  bottom: 18em;
+  right: 9.5em;
+  z-index: 1;
+}
+
+#abthree{
+  font-size: 25px;
+  color: rgb(250, 245, 183);
+  position: absolute;
+  bottom: 17em;
+  right: 10em;
   z-index: 1;
 
 }
@@ -107,7 +126,7 @@ h2 {
 }
 /* nav bar color*/
 #navbar {
-  background-color: rgb(58, 45, 45);
+  background-color: rgb(54, 39, 52);
   overflow: hidden; 
   padding: 14px 10px ;
 
