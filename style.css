@@ -12,22 +12,38 @@ body{
     font-family:'Caveat', cursive; ;
     margin-bottom: 1em;
 }
-/* backgrounf  */
+
+/* adjustments when on smaller screen */
+#main{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center ;
+  align-items: center;
+  padding: 0 20px;
+  position: relative;
+
+}
+
+
+/* background  */
+
  #starbackground{
   position:absolute;
   top: 0;
   left: 0;
   width: 100%;
+  height: 100%;
   object-fit: cover;
-  padding-top:50px; 
+  padding-top:10px; 
 } 
-
 
 
 #starjar{
   position:absolute;
   top: 15em;
   left: 51.5em;
+
 
 }
 /* right stars */
@@ -36,11 +52,14 @@ body{
   top: 50em;
   left: 5em;
 
+
 }
 #starr{
   position:absolute;
   top: 60em;
   left: 18em;
+
+
 
 }
 /* left  */
@@ -56,31 +75,22 @@ body{
   right: 18em;
 
 }
-/* middle */
-#starrrrr{
-  position:absolute;
-  top: 48em;
-  right: 39em;
-
-}
-
 /* Welcome letters */
-
 .glow {
   font-size: 80px;
   color: #fff;
   text-align: center;
   animation: glow 1s ease-in-out infinite alternate;}
 
-  @-webkit-keyframes glow {
-    from {
-      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ddb663,
-       0 0 40px #ddb663, 0 0 50px #e0a423, 0 0 60px #b6751b, 0 0 70px #b6751b;
-    }
-    to {
-      text-shadow: 0 0 20px #fff, 0 0 30px #693657, 0 0 40px #693657,
-       0 0 50px #3a2b5c, 0 0 60px #3a2b5c, 0 0 70px #302b5c, 0 0 80px #302b5c;
-    }
+@-webkit-keyframes glow {
+   from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ddb663,
+      0 0 40px #ddb663, 0 0 50px #e0a423, 0 0 60px #b6751b, 0 0 70px #b6751b;
+  }
+  to {
+     text-shadow: 0 0 20px #fff, 0 0 30px #693657, 0 0 40px #693657,
+     0 0 50px #3a2b5c, 0 0 60px #3a2b5c, 0 0 70px #302b5c, 0 0 80px #302b5c;
+  }
   }
 h2 {
   text-transform: uppercase;
