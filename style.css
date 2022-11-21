@@ -12,6 +12,22 @@ body{
     font-family:'Caveat', cursive; ;
     margin-bottom: 5em;
 }
+/* backgrounf  */
+ #starbackground{
+  position:absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  object-fit: cover;
+  padding-top:50px; 
+} 
+
+#starjar{
+  position:absolute;
+  top: 0;
+  left: 30em;
+
+}
 
 /* Welcome letters */
 h2 {
@@ -26,9 +42,9 @@ h2 {
 #intro-one{
   font-size: 70px;
   color: rgb(250, 245, 183); 
-  margin-right: 13em ;
-  margin-bottom: 4em;
-  top: 2em;
+ position: absolute;
+ top: 1em;
+ left: .5em;
 
 }
 
@@ -36,28 +52,39 @@ h2 {
   float: left;
   font-size: 70px;
   color: rgb(250, 245, 183);
-  margin: ;
+  position: absolute;
+  top: 2.3em;
+  left: 3em;
 
 }
 
 #intro-three{
   font-size: 70px;
   color: rgb(250, 245, 183);
+  position: absolute;
+  top: 3.5em;
+  left: 3.5em;
 } 
 
+/* About  */
 
-/* Background */
-video{
-  position:absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  object-fit: cover;
-  padding-top:50px;
-
+#abone{
+  font-size: 120px;
+  color: rgb(250, 245, 183);
+  position: absolute;
+  top: 6em;
+  right: 3.5em;
+  z-index: 1;
 
 }
 
+
+
+
+
+
+
+/* Aligning 3h1s and back ground video  */
 #main{
   height: 100vh;
   display: flex;
@@ -86,7 +113,7 @@ video{
 
 }
 /* Change the color of links on hover */
-#navbar a :hover {
+#navbarS  a:hover {
   background-color: #ddd;
   color: black;
 
@@ -94,11 +121,5 @@ video{
 /* Add a color to the active/current link */
 #navbar .active {
   background-color: #fbe98e;
-  color: rgb(255, 255, 255);
-}
-
-
-
-
-
+  color: rgb(255, 255, 255)
 
